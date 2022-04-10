@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Roger gonzalez" />
+    <meta name="description" content="ejercicio 3" />
+    <title>ejercicio 3 semanal</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Ejercicio 3 formularios</h1>
+      </header>
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <label for="name">Nombre</label>
+          <input type="text" id="name" autofocus required />
+
+          <label for="email">Correo electronico</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="web">Pagina web</label>
+          <input
+            type="url"
+            id="web"
+            name="web"
+            placeholder="Escribe la URL de tu página web personal"
+          />
+
+          <label for="Color">Color favorito</label>
+          <input type="color" id="Color" name="Color" />
+
+          <label for="number">Numero</label>
+          <input type="number" id="number" name="number" min="-10" max="10" />
+
+          <label for="tel">Telefono</label>
+          <input type="number" id="tel" name="tel" readonly value="643006820" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Fecha y hora</legend>
+          <label for="date">Fecha</label>
+          <input type="date" id="date" name="date" />
+
+          <label for="time">Hora</label>
+          <input type="time" id="time" name="time" />
+
+          <label for="datetime-local">Fecha y hora</label>
+          <input
+            type="datetime-local"
+            id="datetime-local"
+            name="datetime-local"
+          />
+
+          <label for="month">Mes</label>
+          <input type="month" id="month" name="month" />
+
+          <label for="week">Semana</label>
+          <input type="week" id="week" name="week" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Busqueda</legend>
+          <label for="Buscar">Buscar</label>
+          <input type="search" id="Buscar" name="Buscar" readonly />
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
